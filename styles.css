@@ -63,7 +63,7 @@ footer {
   background-color: white;
   width: 375px;
   margin: auto;
-  padding: 0px 30px;
+  padding: 1px 30px;
 }
 
 .solid-circle {
@@ -79,7 +79,7 @@ footer {
   height: 12px;
   left: 250px;
   top: 620px;
-  background-color: #EBEBff;
+  background-color: #ebebff;
   border: 1px solid blue;
   transform: rotate(23deg);
 }
