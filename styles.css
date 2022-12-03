@@ -1,0 +1,127 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.canvas {
+  height: 718px;
+  width: 375px;
+  background-image: url(background.png);
+  background-size: cover;
+  margin: auto;
+}
+
+.status-bar {
+  height: 44px;
+}
+
+.header-container {
+  width: 327px;
+  margin: auto;
+}
+
+.header {
+  height: 48px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.my-logo {
+  color: #6070ff;
+  font-family: 'Poppins', sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 20px;
+}
+
+.menu {
+  display: flex;
+  flex-direction: column;
+}
+
+.line {
+  height: 2px;
+  width: 16px;
+  margin: 1.3px auto;
+  background-color: #6070ff;
+  border-radius: 30px;
+}
+
+.content {
+  height: 604px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.my-name {
+  width: 327px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 40px;
+  font-weight: bolder;
+  margin-bottom: 10px;
+}
+
+.my-work {
+  width: 327px;
+  text-justify: auto;
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+
+.connect {
+  font-family: 'Poppins', sans-serif;
+  width: 327px;
+  font-size: 16;
+  margin-bottom: 5px;
+  color: #7f8cff;
+}
+
+.icons {
+  width: 327px;
+  display: flex;
+}
+
+.my-portfolio {
+  text-decoration: none;
+}
+
+.github,
+.linkedin,
+.twitter {
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+
+.github:hover,
+.linkedin:hover,
+.twitter:hover {
+  background-color: aqua;
+}
+
+.my-portfolio:visited {
+  color: #6070ff;
+}
+
+.github:active,
+.linkedin:active,
+.twitter:active {
+  background-color: rgb(0, 81, 255);
+}
+
+.github:visited,
+.linkedin:visited,
+.twitter:visited {
+  background-color: rgb(255, 255, 255);
+}
+
+li {
+  list-style: none;
+}
