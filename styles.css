@@ -1,5 +1,7 @@
-body {
-  background-color: black;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 .canvas {
@@ -98,14 +100,14 @@ body {
   margin-right: 15px;
 }
 
-.my-portfolio:visited {
-  color: rgb(0, 255, 195);
-}
-
 .github:hover,
 .linkedin:hover,
 .twitter:hover {
   background-color: aqua;
+}
+
+.my-portfolio:visited {
+  color: #6070ff;
 }
 
 .github:active,
@@ -117,5 +119,9 @@ body {
 .github:visited,
 .linkedin:visited,
 .twitter:visited {
-  background-color: rgb(255, 0, 0);
+  background-color: rgb(255, 255, 255);
+}
+
+li {
+  list-style: none;
 }
