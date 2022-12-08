@@ -130,11 +130,11 @@ li {
 
 .works {
   width: 375px;
-  height: 2788px;
+  height: 2700px;
   margin: auto;
   display: grid;
   place-items: center;
-  background-color: #ebebff;
+  background-color: #f8f8ff;
 }
 
 .work1,
@@ -159,11 +159,23 @@ li {
   border-radius: 10px;
 }
 
+.work2 .head-image {
+  background-color: rgb(241, 227, 210);
+}
+
+.work3 .head-image {
+  background-color: rgb(249, 148, 60);
+}
+
 .head-image img {
   width: 100%;
   height: 100%;
   padding: 30px;
   object-fit: cover;
+}
+
+.work4 .head-image img {
+  padding: 0;
 }
 
 .details {
@@ -177,8 +189,7 @@ li {
 
 .project-title {
   color: #172b4d;
-  font-style: bolder;
-  font-weight: 900;
+  font-weight: 700;
   font-size: 32px;
   line-height: 44px;
 }
@@ -238,7 +249,7 @@ li {
 
 .text {
   border: 2px solid #396df2;
-  border-radius: 15px;
+  border-radius: 10px;
   font-weight: 500;
   font-size: 17px;
   line-height: 24px;
