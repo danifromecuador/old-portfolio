@@ -248,6 +248,10 @@ li {
   justify-content: left;
 }
 
+button {
+  all: unset;
+}
+
 .text {
   border: 2px solid #396df2;
   border-radius: 10px;
