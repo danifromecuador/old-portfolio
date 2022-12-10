@@ -250,7 +250,8 @@ li {
 }
 
 .text {
-  width: 125px;
+  width: 160px;
+  text-align: center;
   border: 2px solid #396df2;
   border-radius: 10px;
   font-weight: 500;
