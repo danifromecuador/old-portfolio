@@ -419,7 +419,6 @@ a {
   display: flex;
   flex-direction: column;
   row-gap: 10px;
-
 }
 
 .contact form #text,
@@ -444,5 +443,4 @@ a {
   color: #6070ff;
   font-weight: 500;
   font-size: 17px;
-
 }
