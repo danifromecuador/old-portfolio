@@ -110,7 +110,7 @@ body {
 .twitter:hover,
 .angellist:hover,
 .medium:hover {
-  background-color: aqua;
+  background-color: #6070ff;
 }
 
 .my-portfolio:visited {
@@ -122,7 +122,7 @@ body {
 .twitter:active,
 .angellist:active,
 .medium:active {
-  background-color: rgb(0, 81, 255);
+  background-color: #7f8cff;
 }
 
 .github:visited,
@@ -130,7 +130,7 @@ body {
 .twitter:visited,
 .angellist:visited,
 .medium:visited {
-  background-color: rgb(255, 255, 255);
+  background-color: #2230d2;
 }
 
 li {
@@ -291,14 +291,14 @@ a {
 .text:hover,
 .text-content:hover,
 #button:hover {
-  color: blue;
-  background-color: rgb(166, 166, 249);
+  color: #ffffff;
+  background-color: #6070ff;
 }
 
 .text:active,
 .text-content:active,
 #button:active {
-  color: red;
+  background-color: #7f8cff;
 }
 
 /* about //////////////////////////////////////////////////// */
