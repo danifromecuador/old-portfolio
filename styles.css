@@ -429,10 +429,6 @@ a {
   row-gap: 10px;
 }
 
-#textarea {
-  height: 170px;
-}
-
 .contact form #text,
 .contact form #email,
 .contact form #textarea,
@@ -443,4 +439,9 @@ a {
   padding: 15px;
   border: 1px solid #cfd8dc;
   border-radius: 8px;
+}
+
+.contact form #textarea {
+  height: 170px;
+  padding: 15px 38px 15px 16px;
 }
