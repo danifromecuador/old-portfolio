@@ -14,7 +14,7 @@ body {
 .canvas {
   height: 718px;
   width: 375px;
-  background-image: url(background.png);
+  background-image: url(images/background.png);
   background-size: cover;
   margin: auto;
 }
@@ -395,7 +395,7 @@ a {
 /* contact ///////////////////////////////////////// */
 
 .contact {
-  background-image: url(contact-background.png);
+  background-image: url(images/contact-background.png);
   color: #fff;
   width: 375px;
   height: 779px;
