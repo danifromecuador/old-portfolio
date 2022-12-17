@@ -1,16 +1,18 @@
 @media screen and (min-width: 768px) {
-  * {
-    /* border: 1px solid green; */
+  body {
+    background-color: #f8f8ff;
   }
 
   /* canvas ///////////////////////////////////////////// */
   .canvas {
     width: 1440px;
     height: 916px;
+    background-color: #fff;
     background-image: url(images/background-desktop.png);
     background-size: contain;
     background-repeat: no-repeat;
     background-position-y: bottom;
+    border-bottom-left-radius: 130px;
   }
 
   .status-bar {
@@ -46,6 +48,7 @@
     font-size: 48px;
     font-weight: 700;
     line-height: 60px;
+    color: #091e42;
   }
 
   .my-work {
@@ -54,6 +57,7 @@
     font-weight: 400;
     margin-bottom: 15px;
     line-height: 28px;
+    color: #091e42;
   }
 
   .connect {
