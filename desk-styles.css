@@ -155,29 +155,40 @@
 
   .about {
     width: 1440px;
-    height: 924px;
+    height: 750px;
+    display: flex;
     flex-direction: row;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     column-gap: 25px;
+    border-top-right-radius: 130px;
   }
 
   .content2 {
     width: 447px;
-    height: 392px;
-    margin-top: -400px;
+    height: 500px;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+  }
+
+  .content2 .my-name {
+    color: #091e42
   }
 
   .content2 .my-work {
     width: 447px;
     text-justify: auto;
     font-size: 16px;
+    color: #344563;
   }
 
   .content2 .connect {
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;
+    color: #7f8cff
   }
 
   .content2 .text {
@@ -185,6 +196,7 @@
     font-size: 17px;
     line-height: 24px;
     padding: 12px;
+    color: #396df2;
   }
 
   .content2 .icons {
@@ -193,7 +205,7 @@
 
   .skill-list {
     width: 684px;
-    height: 360px;
+    margin-top: 100px;
   }
 
   .js-list,
