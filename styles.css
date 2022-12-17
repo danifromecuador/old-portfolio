@@ -101,18 +101,7 @@ body {
 .twitter,
 .angellist,
 .medium {
-  width: 22px;
-  height: 22px;
-  border-radius: 50%;
   margin-right: 15px;
-}
-
-.github:hover,
-.linkedin:hover,
-.twitter:hover,
-.angellist:hover,
-.medium:hover {
-  background-color: #6070ff;
 }
 
 .my-portfolio:visited {
@@ -289,17 +278,18 @@ a {
   font-size: 17px;
 }
 
-.text:hover,
-.text-content:hover,
-#button:hover {
-  color: #fff;
-  background-color: #6070ff;
-}
-
 .text:active,
 .text-content:active,
 #button:active {
   background-color: #7f8cff;
+}
+
+.text:hover,
+.text-content:hover,
+#button:hover,
+.content2 .text:hover {
+  color: #fff;
+  background-color: #6070ff;
 }
 
 /* about //////////////////////////////////////////////////// */
