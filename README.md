@@ -46,7 +46,7 @@ Welcome to my portfolio project
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://github.com/danifromecuador/portfolio)
+- [Live Demo Link](https://danifromecuador.github.io/portfolio/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
