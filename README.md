@@ -115,6 +115,7 @@ If you like this project let me know sharing my portfolio with recruters!
 
 I would like to thank the Codepip company for creating the game called css frog.
 https://twitter.com/playcodepip
+Thanks to Microverse for the opportunity
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
