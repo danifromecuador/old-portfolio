@@ -77,7 +77,7 @@ body {
   margin-bottom: 10px;
   animation-duration: 3s;
   animation-name: slidein;
-  animation-iteration-count: infinite;
+  animation-iteration-count: 3;
   animation-direction: alternate;
 }
 
@@ -453,4 +453,8 @@ a {
 .contact form #textarea {
   height: 170px;
   padding: 15px 38px 15px 16px;
+}
+
+label {
+  visibility: hidden;
 }
