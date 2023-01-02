@@ -48,6 +48,15 @@ body {
 .menu {
   display: flex;
   flex-direction: column;
+  cursor: pointer;
+}
+
+.hamburger-icon-menu {
+  display: none;
+}
+
+.active {
+  display: block;
 }
 
 .pac {
