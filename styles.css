@@ -66,17 +66,14 @@ body {
   backdrop-filter: blur(20px);
   padding-top: 30px;
   display: none;
-
 }
 
-.close-icon img{
+.close-icon img {
   float: right;
   margin: 20px;
-  
 }
 
 .PAC-mobile {
-  row-gap: 30px;
   color: white;
   font-size: 32px;
   display: flex;
