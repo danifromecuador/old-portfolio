@@ -53,9 +53,12 @@ body {
 }
 
 .hamburger-icon-menu {
+  
   display: none;
   position: absolute;
-  width: 375px;
+  top: 0;
+  left: 0;
+  width: 100%;
   height: 812px;
   display: flex;
   justify-content: center;
