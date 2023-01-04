@@ -1,10 +1,15 @@
-const menu = document.querySelector('.menu');
-const hamburger = document.querySelector('.hamburger-icon-menu');
-const canvas = document.querySelector('.canvas');
+const hamburgerMenu = document.querySelector('.hamburger-menu');
+const hamburgerIcon = document.querySelector('.hamburger-icon');
+const closeIcon = document.querySelector('.close-icon');
 
 function display() {
-  hamburger.classList.toggle('active');
-  // canvas.classList.toggle('inactive');
+  hamburgerMenu.style.display = 'block'
 }
 
-menu.addEventListener('click', display);
+hamburgerIcon.addEventListener('click', display);
+
+function noneDisplay() {
+  hamburgerMenu.style.display = 'none'
+}
+
+closeIcon.addEventListener('click', noneDisplay);
