@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  border: 1px solid red;
 }
 
 body {
@@ -53,10 +54,36 @@ body {
 
 .hamburger-icon-menu {
   display: none;
+  position: absolute;
+  width: 375px;
+  height: 812px;
+  display: flex;
+  justify-content: center;
+  background-color: #6070ff;
+  opacity: 0.95;
+  backdrop-filter: blur(20px);
+
+}
+
+.close {
+  text-align: right;
+}
+
+.PAC-mobile {
+  row-gap: 30px;
+  color: white;
+  font-size: 32px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 30px;
 }
 
 .active {
   display: block;
+}
+
+.inactive {
+  display: none;
 }
 
 .pac {
@@ -79,7 +106,7 @@ body {
   align-items: center;
 }
 
-.my-name {
+/* .my-name {
   width: 327px;
   font-size: 40px;
   font-weight: bolder;
@@ -88,7 +115,7 @@ body {
   animation-name: slidein;
   animation-iteration-count: infinite;
   animation-direction: alternate;
-}
+} */
 
 @keyframes slidein {
   from {
