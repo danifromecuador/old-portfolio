@@ -6,6 +6,9 @@ const pacMobile = document.querySelector('.PAC-mobile');
 hamburgerIcon.addEventListener('click', () => {
   hamburgerMenu.style.display = 'block';
 });
-
-closeIcon.addEventListener('click', () => hamburgerMenu.style.display = 'none');
-pacMobile.addEventListener('click', () => hamburgerMenu.style.display = 'none');
+closeIcon.addEventListener('click', () => {
+  hamburgerMenu.style.display = 'none';
+});
+pacMobile.addEventListener('click', () => {
+  hamburgerMenu.style.display = 'none';
+});
