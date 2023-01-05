@@ -15,3 +15,5 @@ closeIcon.addEventListener('click', () => {
 pacMobile.addEventListener('click', () => {
   hamburgerMenu.style.display = 'none';
 });
+
+// pop up window code
